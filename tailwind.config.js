@@ -4,8 +4,38 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
+    screens: {
+      'dsm': '300px',
+
+      'qsm': '400px',
+
+      'hsm': '500px',
+
+      'sm': '640px',
+
+      'md': '768px',
+
+      'hlg': '900px',
+
+      'lg': '1024px',
+
+      'xl': '1280px',
+
+      '15xl': '1400px',
+
+      '2xl': '1536px',
+    },
+
     extend: {
+      container: {
+        padding: {
+          sm: '15px',
+          lg: '30px',
+        }
+      },
+
       fontFamily: {
         poppins: 'Poppins, sans-serif',
       },
@@ -19,7 +49,8 @@ export default {
         BbuttonColorNone: 'rgba(118, 18, 250, .10)',
         PrimaryWhite: '#E0E4E7',
 
-        Bgray: '#A4A5A6'
+        Bgray: '#A4A5A6',
+        BgrayDark: 'hsl(210, 1%, 20%)'
       },
 
       fontSize: {

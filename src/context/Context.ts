@@ -1,3 +1,11 @@
 import React from 'react'
 
-export const Contexts = React.createContext(null)
+interface ContextType {
+    className: boolean;
+    setClassName: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+export const Contexts = React.createContext<ContextType>({
+    className: false, 
+    setClassName: () => true
+})

@@ -1,13 +1,13 @@
 export const style = {
-    buttonStyle: 'shadow-[1px_4px_10px_#000000] flex items-center justify-center gap-1 bg-BbuttonColor px-[17px] py-[12px] border-none rounded-[10px] active:scale-95',
+    buttonStyle: 'shadow-[1px_4px_10px_#000000] sm:flex items-center justify-center gap-1 bg-BbuttonColor px-[15px] md:px-[17px] py-[10px] md:py-[12px] border-none rounded-[10px] active:scale-95',
 
     input: 'border-none p-[15px] mt-1 rounded-[10px] shadow-[#000_0px_4px_1px,#000_0px_5px_10px] text-white bg-BbackgoundColor',
 
     buttonModal: 'flex items-center border-[0.15px] rounded-md border-Bgray p-2 w-full gap-2 justify-center',
 
-    buttonActive: 'shadow-[1px_4px_10px_#000000] bg-BbuttonColor px-[17px] py-[12px] border-none rounded-[10px] hover:bg-BbuttonColorHover active:scale-95 mt-6 w-full text-button text-white',
+    buttonActive: 'shadow-[1px_4px_10px_#000000] bg-BbuttonColor px-[17px] py-[12px] border-none rounded-[10px] hover:bg-BbuttonColorHover active:scale-95 mt-3 qsm:mt-6 w-full text-button text-white',
 
-    buttonNoneActive: 'bg-BbuttonColorNone px-[17px] py-[12px] border-none rounded-[10px] cursor-not-allowed mt-6 w-full text-button text-white',
+    buttonNoneActive: 'bg-BbuttonColorNone px-[17px] py-[12px] border-none rounded-[10px] cursor-not-allowed mt-3 qsm:mt-6 w-full text-button text-white',
 }
 
 export const boxElement = [
